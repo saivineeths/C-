@@ -267,4 +267,296 @@
 //  return 0;
 // }
 
-#include <iostream>
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
+// int main()
+// {
+//     int a,b,c;
+//     float d,r1,r2;
+//     cout<<"enter the no ";
+//     cin>>a>>b>>c;
+//     d=b*b-4*a*c;
+//     if (d==0)
+//     {
+//         cout<<"real and equal";
+//         r1=(-b/(2*a));
+//         cout<<endl<<r1;
+//     }
+//     else if(d>0)
+//     {
+//         cout<<"real and unequal";
+//         r1=(-b+sqrt(d))/(2*a);
+//         r2=(-b-sqrt(d))/(2*a);
+//         cout<<endl<<r1;
+//         cout<<endl<<r2;
+//     }
+//     else
+//     {
+//         cout<<"imaginary";
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int m1,m2,m3,total;
+//     float avg;
+//     cout<<"enter marks";
+//     cin>>m1>>m2>>m3;
+//     total=m1+m2+m3;
+//     avg=total/3.0;
+//     if (avg>=60)
+//     {
+//         cout<<"A"<<endl;
+//     }
+//     else
+//     {
+//         if (avg>=35 && avg<=60)
+//         {
+//             cout<<"B"<<endl;
+//         }
+//         else
+//         {
+//             cout<<"C"<<endl;
+//         }
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//  int day;
+//  cout<<"enter the day no";
+//  cin>>day;
+//  if (day==1)
+//  {
+//     cout<<"mon"<<endl;
+//  }
+//  else if(day==2)
+//  {
+//     cout<<"tue"<<endl;
+//  } 
+//  else if(day==3)
+//  {
+//     cout<<"wed"<<endl;
+//  } 
+//  else if(day==4)
+//  {
+//     cout<<"thu"<<endl;
+//  }
+//  else if(day==5)
+//  {
+//     cout<<"fri"<<endl;
+//  }
+//  else if(day==6)
+//  {
+//     cout<<"sat"<<endl;
+//  }
+//  else if(day==7)
+//  {
+//     cout<<"sun"<<endl;
+//  }
+//  else
+//  {
+//     cout<<"invailed";
+//  }
+//  return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//  int month;
+//  cout<<"enter the month no";
+//  cin>>month;
+//  if (month==1)
+//  {
+//     cout<<"jan"<<endl;
+//  }
+//  else if(month==2)
+//  {
+//     cout<<"feb"<<endl;
+//  } 
+//  else if(month==3)
+//  {
+//     cout<<"mar"<<endl;
+//  } 
+//  else if(month==4)
+//  {
+//     cout<<"apr"<<endl;
+//  }
+//  else if(month==5)
+//  {
+//     cout<<"may"<<endl;
+//  }
+//  else if(month==6)
+//  {
+//     cout<<"jun"<<endl;
+//  }
+//  else if(month==7)
+//  {
+//     cout<<"jul"<<endl;
+//  }
+//  else if(month==8)
+//  {
+//     cout<<"aug"<<endl;
+//  }
+//  else if(month==9)
+//  {
+//     cout<<"sep"<<endl;
+//  }
+//  else if(month==10)
+//  {
+//     cout<<"oct"<<endl;
+//  }
+//  else if(month==11)
+//  {
+//     cout<<"nov"<<endl;
+//  }
+//  else if(month==12)
+//  {
+//     cout<<"dec"<<endl;
+//  }
+//  else
+//  {
+//     cout<<"invailed";
+//  }
+//  return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int day;
+//     cout<<"enter day no";
+//     cin>>day;
+//     switch (day)
+//     {
+//     case 1: cout<<"mon";
+//         break;
+//     case 2: cout<<"tue";
+//         break;
+//     case 3: cout<<"wes";
+//         break;
+//     case 4: cout<<"thu";
+//         break;
+//     case 5: cout<<"fri";
+//         break;
+//     case 6: cout<<"sat";
+//         break;
+//     case 7: cout<<"sun";
+//         break;            
+//     default: cout<<"invailed";
+//         break;
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   //  int a=10,b=20,sum;
+//     int a,b,sum;
+//     cout<<"Enter 1 no ";
+//     cin>>a;
+//     cout<<"Enter 2 no ";
+//     cin>>b;
+//     sum=a+b;
+//     cout<<"sum of two numbers "<<sum<<endl;
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     cout<<"Mean\n";
+//     cout<<"1. ADD\n"<<"2. SUB\n"<<"3. MUL\n"<<"4. DIV\n";
+//     int option;
+//     cout<<"enter your choice";
+//     cin>>option;
+
+//     int a,b,c;
+//     cout<<"enter 2 no";
+//     cin>>a>>b;
+//     switch(option)
+//     {
+//         case 1: c=a+b;
+//         cout<<c<<endl;
+//            break;
+//         case 2: c=a-b;
+//         cout<<c<<endl;
+//             break;
+//         case 3: c=a*b;
+//         cout<<c<<endl;
+//            break;
+//         case 4: c=a/b;
+//         cout<<c<<endl;
+//             break;    
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     float billamount;
+//     float discount;
+
+//     cout<<"enter bill amount: ";
+//     cin>>billamount;
+//     if (billamount>=500)
+//     {
+//         discount=billamount*20/100;
+//     }
+//     else if(billamount>=100 && billamount<500)
+//     {
+//         discount=billamount*10/100;
+//     }
+//      cout<<"Bill amount is: "<<billamount<<endl;
+//      cout<<"discount amount is: "<<discount<<endl;
+//      cout<<"Discounted amount is: "<<billamount-discount<<endl;
+//     return 0; 
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int year;
+//     cout<<"enter year";
+//     cin>>year;
+
+//     if(year%4==0)
+//     {
+//         if (year%100==0)
+//         {
+//             if (year%400==0)
+//             {
+//                 cout<<year<<"is a leap year";
+//             }
+//             else
+//             {
+//                 cout<<year<<"is not a leap year";
+//             }
+//         }
+//         else
+//         {
+//             cout<<year<<"is a leap year";
+//         }
+//     }
+//     else 
+//     {
+//         cout<<year<<"is a not leap year";
+//     }
+//     return 0;
+// }
