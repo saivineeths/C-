@@ -560,3 +560,124 @@
 //     }
 //     return 0;
 // }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,i=1;
+//     cout<<"enter n no";
+//     cin>>n;
+//     while (i<=n)
+//     {
+//         cout<<i<<endl;
+//         i++;
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,i=1;
+//     cout<<"enter n no";
+//     cin>>n;
+//     do
+//     {
+//         cout<<i<<endl;
+//         i++;
+//     } while (i<=n);
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,i;
+//     cout<<"enter n no";
+//     cin>>n;
+//     for (i=1; i<=n; i++)
+//     {
+//         cout<<i<<endl;
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int i=1;
+//     for (; ;)
+//     {
+//         cout<<i<<endl;
+//         i++;
+//     }
+//     return 0;
+// } 
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int i=1,n;
+//     cout<<"enter n no";
+//     cin>>n;
+//     for (; ;)
+//     {
+//         cout<<i<<endl;
+//         i++;
+//         if (i>=n)
+//         break;
+//     }
+//     return 0;
+// } 
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int i,n;
+//     cout<<"enter n no";
+//     cin>>n;
+//     for ( i=1; i<=10; i++)
+//     {
+//         cout<<n<<"x"<<i<<"="<<i*n<<endl;
+//     }
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,i,sum=0;
+//     cout<<"enter n no";
+//     cin>>n;
+//     for ( i=1; i<=n; i++)
+//     {
+//         sum+=i;
+//         cout<<"sumN no is "<<i<<"= "<<sum<<endl;
+//     }
+    
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,i,fact=1;
+//     cout<<"enter n no";
+//     cin>>n;
+//     for ( i=1; i<=n; i++)
+//     {
+//         fact*=i;
+//         cout<<"factorial "<<i<<"= "<<fact<<endl;
+//     }
+    
+//     return 0;
+// }
+
